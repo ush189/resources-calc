@@ -11,7 +11,9 @@ app.config(function($routeProvider, $locationProvider) {
         .when('/recycling', {
             templateUrl: 'views/recycling.html'
         })
-        .otherwise({redirectTo: '/mines'});
+        .otherwise({
+            redirectTo: '/mines'
+        });
 
     // use the HTML5 History API
     $locationProvider.html5Mode(true);
