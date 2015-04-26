@@ -1,0 +1,9 @@
+.resources table.prices th,
+.resources table.prices td {
+    text-align: left;
+}
+
+.resources table.prices th.price-value,
+.resources table.prices td.price-value {
+    text-align: right;
+}
