@@ -1,4 +1,4 @@
-app.factory('PricesService', ['$http', function($http) {
+app.factory('ResourcesService', ['$http', function($http) {
     var getPrices = function() {
         return $http.get('mocks/kurseliste_json.txt');
     };

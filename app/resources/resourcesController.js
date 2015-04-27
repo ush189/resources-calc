@@ -1,7 +1,7 @@
-app.controller('PricesController', ['$scope', 'PricesService', function($scope, PricesService) {
+app.controller('ResourcesController', ['$scope', 'ResourcesService', function($scope, ResourcesService) {
     $scope.priceList = [];
 
-    PricesService.getPrices().then(
+    ResourcesService.getPrices().then(
         function(response) {
             $scope.priceList = response.data;
         },

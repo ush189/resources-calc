@@ -2,9 +2,9 @@ var app = angular.module('resourcesApp', ['ngRoute']);
 
 app.config(function($routeProvider, $locationProvider) {
     $routeProvider
-        .when('/prices', {
-            templateUrl: 'views/prices.html',
-            controller: 'PricesController'
+        .when('/resources', {
+            templateUrl: 'views/resources.html',
+            controller: 'ResourcesController'
         })
         .when('/mines', {
             templateUrl: 'views/mines.html'
@@ -16,7 +16,7 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl: 'views/recycling.html'
         })
         .otherwise({
-            redirectTo: '/prices'
+            redirectTo: '/resources'
         });
 
     // use the HTML5 History API
