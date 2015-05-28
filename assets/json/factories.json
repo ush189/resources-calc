@@ -1,0 +1,296 @@
+[
+    {
+        "label": "Ziegelei",
+        "production": {
+            "rate": 800,
+            "productId": 24,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 500000
+
+        }
+    },
+    {
+        "label": "Betonwerk",
+        "production": {
+            "rate": 2100,
+            "productId": 9,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 2000000
+
+        }
+    },
+    {
+        "label": "Düngemittelfabrik",
+        "production": {
+            "rate": 1210,
+            "productId": 22,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 4000000
+
+        }
+    },
+    {
+        "label": "Eisenhütte",
+        "production": {
+            "rate": 310,
+            "productId": 30,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 10000000
+
+        }
+    },
+    {
+        "label": "Ölraffinerie",
+        "production": {
+            "rate": 640,
+            "productId": 38,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 20000000
+
+        }
+    },
+    {
+        "label": "Glaserei",
+        "production": {
+            "rate": 640,
+            "productId": 60,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 20000000
+
+        }
+    },
+    {
+        "label": "Kupferraffinerie",
+        "production": {
+            "rate": 270,
+            "productId": 36,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 40000000
+
+        }
+    },
+    {
+        "label": "Insektizidfabrik",
+        "production": {
+            "rate": 3500,
+            "productId": 28,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 30000000
+
+        }
+    },
+    {
+        "label": "Aluminiumwerk",
+        "production": {
+            "rate": 320,
+            "productId": 32,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 40000000
+
+        }
+    },
+    {
+        "label": "Kunststofffabrik",
+        "production": {
+            "rate": 600,
+            "productId": 58,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 50000000
+
+        }
+    },
+    {
+        "label": "Lithiumraffinerie",
+        "production": {
+            "rate": 750,
+            "productId": 92,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 60000000
+
+        }
+    },
+    {
+        "label": "Batteriefabrik",
+        "production": {
+            "rate": 600,
+            "productId": 93,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 100000000
+
+        }
+    },
+    {
+        "label": "Waffenfabrik",
+        "production": {
+            "rate": 125,
+            "productId": 87,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 200000000
+
+        }
+    },
+    {
+        "label": "Siliziumraffinerie",
+        "production": {
+            "rate": 120,
+            "productId": 67,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 220000000
+
+        }
+    },
+    {
+        "label": "Eletronikfabrik",
+        "production": {
+            "rate": 480,
+            "productId": 66,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 300000000
+
+        }
+    },
+    {
+        "label": "Titanraffinerie",
+        "production": {
+            "rate": 320,
+            "productId": 51,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 350000000
+
+        }
+    },
+    {
+        "label": "Medizintechnik AG",
+        "production": {
+            "rate": 400,
+            "productId": 75,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 500000000
+
+        }
+    },
+    {
+        "label": "Silberraffinerie",
+        "production": {
+            "rate": 3000,
+            "productId": 35,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 750000000
+
+        }
+    },
+    {
+        "label": "Goldraffinerie",
+        "production": {
+            "rate": 240,
+            "productId": 79,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 1000000000
+
+        }
+    },
+    {
+        "label": "Goldschmied",
+        "production": {
+            "rate": 40,
+            "productId": 84,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 500000000
+
+        }
+    },
+    {
+        "label": "Scandrohnenwerft",
+        "production": {
+            "rate": 1,
+            "productId": 117,
+            "costs": [
+
+            ]
+        },
+        "upgrade": {
+            "cash": 2000000000
+
+        }
+    }
+]

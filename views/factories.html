@@ -1,1 +1,13 @@
 <h2>Fabriken</h2>
+
+<table>
+    <tr>
+        <th>Stufe</th><th class="price-value">Fabrik</th><th class="price-value">Produktionsleistung</th><th class="price-value">Produkt</th>
+    </tr>
+    <tr ng-repeat="factory in factories">
+        <td><input type="number" value=""></td>
+        <td>{{factory.label}}</td>
+        <td>{{factory.production.rate}}</td>
+        <td>{{factory.production.productId}}</td>
+    </tr>
+</table>

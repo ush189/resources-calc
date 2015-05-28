@@ -10,7 +10,8 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl: 'views/mines.html'
         })
         .when('/factories', {
-            templateUrl: 'views/factories.html'
+            templateUrl: 'views/factories.html',
+            controller: 'FactoriesController'
         })
         .when('/recycling', {
             templateUrl: 'views/recycling.html'
