@@ -7,8 +7,8 @@
     <tr ng-repeat="factory in factories">
         <td><input type="number" value=""></td>
         <td>{{factory.label}}</td>
-        <td>{{factory.production.rate}}</td>
+        <td>{{factory.production.rate | number}}</td>
         <td>{{product[factory.production.productId].label}}</td>
-        <td>{{product[factory.production.productId].price * factory.production.rate}}</td>
+        <td>{{product[factory.production.productId].price * factory.production.rate | number}}</td>
     </tr>
 </table>
