@@ -13,7 +13,10 @@ app.controller('FactoriesController', ['$scope', 'FactoriesService', 'ResourcesS
     ResourcesService.getPrices().then(
         function(response) {
             _.forEach(response.data, function(item) {
-                $scope.product[item.ITEM_ID] = item.NAME_DE;
+                $scope.product[item.ITEM_ID] = {
+                    label: item.NAME_DE,
+                    price: Math.max(item.NORMKURS, item.SMKURS)
+                }
             });
         },
         function(error) {

@@ -2,12 +2,13 @@
 
 <table>
     <tr>
-        <th>Stufe</th><th class="price-value">Fabrik</th><th class="price-value">Produktionsleistung (/h)</th><th class="price-value">Produkt</th>
+        <th>Stufe</th><th class="price-value">Fabrik</th><th class="price-value">Produktionsleistung (/h)</th><th class="price-value">Produkt</th><th class="price-value">Umsatz ($/h)</th>
     </tr>
     <tr ng-repeat="factory in factories">
         <td><input type="number" value=""></td>
         <td>{{factory.label}}</td>
         <td>{{factory.production.rate}}</td>
-        <td>{{product[factory.production.productId]}}</td>
+        <td>{{product[factory.production.productId].label}}</td>
+        <td>{{product[factory.production.productId].price * factory.production.rate}}</td>
     </tr>
 </table>
