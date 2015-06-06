@@ -17,7 +17,7 @@
         "label": "Betonwerk",
         "production": {
             "rate": 2100,
-            "productId": 9,
+            "productId": 7,
             "costs": [
 
             ]
