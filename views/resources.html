@@ -5,6 +5,6 @@
         <th>Name</th><th class="price-value">Kurs</th><th class="price-value">Schwarzmarkt</th>
     </tr>
     <tr ng-repeat="priceItem in priceList">
-        <td>{{priceItem.NAME_DE}}</td><td class="price-value">${{priceItem.NORMKURS}}</td><td class="price-value">${{priceItem.SMKURS}}</td>
+        <td>{{priceItem.NAME_DE}}</td><td class="price-value">${{priceItem.NORMKURS | number}}</td><td class="price-value">${{priceItem.SMKURS | number}}</td>
     </tr>
 </table>
