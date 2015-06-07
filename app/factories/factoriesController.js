@@ -10,6 +10,7 @@ app.controller('FactoriesController', ['$scope', 'FactoriesService', 'ResourcesS
     );
 
     $scope.product = {};
+    $scope.count = [];
     ResourcesService.getPrices().then(
         function(response) {
             _.forEach(response.data, function(item) {
@@ -18,9 +19,11 @@ app.controller('FactoriesController', ['$scope', 'FactoriesService', 'ResourcesS
                     price: Math.max(item.NORMKURS, item.SMKURS)
                 }
             });
+            $scope.count = _.range(0, _.size($scope.product), 0);
         },
         function(error) {
             console.log('error', error);
         }
-    )
+    );
+
 }]);
