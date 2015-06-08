@@ -23,8 +23,8 @@
         <th>Resource 3</th>
     </tr>
     <tr ng-repeat="factory in factories">
-        <td><input ng-model="count[$index]" type="number" value=""></td>
-        <td>{{factory.label}}</td>
+        <td><input ng-model="count[$index]" id="factory-{{$index}}" type="number" value=""></td>
+        <td><label for="factory-{{$index}}">{{factory.label}}</label></td>
         <td>{{factory.production.rate | number}}</td>
         <td>{{factory.production.rate * count[$index] | number}}</td>
         <td>{{product[factory.production.productId].label}}</td>
