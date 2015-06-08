@@ -2,10 +2,25 @@
 
 <table>
     <tr>
-        <th>Stufe</th><th class="price-value">Fabrik</th><th colspan="2" class="price-value">Produktionsleistung</th><th class="price-value">Produkt</th><th colspan="2" class="price-value">Umsatz</th>
+        <th>Stufe</th>
+        <th class="price-value">Fabrik</th>
+        <th colspan="2" class="price-value">Produktionsleistung</th>
+        <th class="price-value">Produkt</th>
+        <th colspan="2" class="price-value">Umsatz</th>
+        <th colspan="4" class="price-value">Kosten</th>
     </tr>
     <tr>
-        <th>&nbsp;</th><th>&nbsp;</th><th class="price-value">pro Stufe (/h)</th><th class="price-value">gesamt (/h)</th><th>&nbsp;</th><th class="price-value">pro Stufe ($/h)</th><th class="price-value">gesamt ($/h)</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+        <th class="price-value">pro Stufe (/h)</th>
+        <th class="price-value">gesamt (/h)</th>
+        <th>&nbsp;</th>
+        <th class="price-value">pro Stufe ($/h)</th>
+        <th class="price-value">gesamt ($/h)</th>
+        <th>Cash</th>
+        <th>Resource 1</th>
+        <th>Resource 2</th>
+        <th>Resource 3</th>
     </tr>
     <tr ng-repeat="factory in factories">
         <td><input ng-model="count[$index]" type="number" value=""></td>
@@ -15,5 +30,9 @@
         <td>{{product[factory.production.productId].label}}</td>
         <td>{{product[factory.production.productId].price * factory.production.rate | number}}</td>
         <td>{{product[factory.production.productId].price * factory.production.rate * count[$index] | number}}</td>
+        <td>{{factory.production.costs[0].quantity}}</td>
+        <td>{{factory.production.costs[1].quantity}}</td>
+        <td>{{factory.production.costs[2].quantity}}</td>
+        <td>{{factory.production.costs[3].quantity}}</td>
     </tr>
 </table>

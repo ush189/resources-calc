@@ -3,9 +3,17 @@
         "label": "Ziegelei",
         "production": {
             "rate": 800,
+            "quantity": 2,
             "productId": 24,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 10
+                },
+                {
+                    "id": 2,
+                    "quantity": 3
+                }
             ]
         },
         "upgrade": {
@@ -19,7 +27,18 @@
             "rate": 2100,
             "productId": 7,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 20
+                },
+                {
+                    "id": 3,
+                    "quantity": 3
+                },
+                {
+                    "id": 20,
+                    "quantity": 2
+                }
             ]
         },
         "upgrade": {
