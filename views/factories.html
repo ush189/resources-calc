@@ -30,9 +30,9 @@
         <td>{{product[factory.production.productId].label}}</td>
         <td>{{product[factory.production.productId].price * factory.production.rate | number}}</td>
         <td>{{product[factory.production.productId].price * factory.production.rate * count[$index] | number}}</td>
-        <td>{{factory.production.costs[0].quantity}}</td>
-        <td>{{factory.production.costs[1].quantity}}</td>
-        <td>{{factory.production.costs[2].quantity}}</td>
-        <td>{{factory.production.costs[3].quantity}}</td>
+        <td>{{factory.production.costs[0].quantity * count[$index] | number}}</td>
+        <td>{{factory.production.costs[1].quantity * count[$index] | number}}</td>
+        <td>{{factory.production.costs[2].quantity * count[$index] | number}}</td>
+        <td>{{factory.production.costs[3].quantity * count[$index] | number}}</td>
     </tr>
 </table>
