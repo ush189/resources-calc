@@ -43,7 +43,6 @@
         },
         "upgrade": {
             "cash": 2000000
-
         }
     },
     {
@@ -52,7 +51,10 @@
             "rate": 1210,
             "productId": 22,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 90
+                }
             ]
         },
         "upgrade": {
@@ -66,7 +68,10 @@
             "rate": 310,
             "productId": 30,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 350
+                }
             ]
         },
         "upgrade": {
@@ -80,7 +85,10 @@
             "rate": 640,
             "productId": 38,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 150
+                }
             ]
         },
         "upgrade": {
@@ -94,7 +102,10 @@
             "rate": 640,
             "productId": 60,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 3000
+                }
             ]
         },
         "upgrade": {
@@ -108,7 +119,10 @@
             "rate": 270,
             "productId": 36,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 2500
+                }
             ]
         },
         "upgrade": {
@@ -122,7 +136,10 @@
             "rate": 3500,
             "productId": 28,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 2400
+                }
             ]
         },
         "upgrade": {
@@ -136,7 +153,10 @@
             "rate": 320,
             "productId": 32,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 5000
+                }
             ]
         },
         "upgrade": {
@@ -150,7 +170,10 @@
             "rate": 600,
             "productId": 58,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 400
+                }
             ]
         },
         "upgrade": {
@@ -164,7 +187,10 @@
             "rate": 750,
             "productId": 92,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 5000
+                }
             ]
         },
         "upgrade": {
@@ -178,7 +204,10 @@
             "rate": 600,
             "productId": 93,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 75000
+                }
             ]
         },
         "upgrade": {
@@ -192,7 +221,10 @@
             "rate": 125,
             "productId": 87,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 250000
+                }
             ]
         },
         "upgrade": {
@@ -206,7 +238,10 @@
             "rate": 120,
             "productId": 67,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 49500
+                }
             ]
         },
         "upgrade": {
@@ -220,7 +255,10 @@
             "rate": 480,
             "productId": 66,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 5000
+                }
             ]
         },
         "upgrade": {
@@ -234,7 +272,10 @@
             "rate": 320,
             "productId": 51,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 10000
+                }
             ]
         },
         "upgrade": {
@@ -248,7 +289,10 @@
             "rate": 400,
             "productId": 75,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 90000
+                }
             ]
         },
         "upgrade": {
@@ -262,7 +306,10 @@
             "rate": 3000,
             "productId": 35,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 10000
+                }
             ]
         },
         "upgrade": {
@@ -276,7 +323,10 @@
             "rate": 240,
             "productId": 79,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 20000
+                }
             ]
         },
         "upgrade": {
@@ -290,7 +340,10 @@
             "rate": 40,
             "productId": 84,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 50000
+                }
             ]
         },
         "upgrade": {
@@ -304,7 +357,10 @@
             "rate": 1,
             "productId": 117,
             "costs": [
-
+                {
+                    "id": 0,
+                    "quantity": 25000000
+                }
             ]
         },
         "upgrade": {
